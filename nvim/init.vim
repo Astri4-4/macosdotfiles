@@ -28,7 +28,7 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'windwp/nvim-ts-autotag'
 call plug#end()
 
-colorscheme cyberdream
+colorscheme tokyonight-storm 
 autocmd VimEnter * NERDTree
 
 let mapleader = " " " map leader to comma
