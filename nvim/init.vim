@@ -4,7 +4,6 @@ set relativenumber
 call plug#begin('~/.local/share/nvim/site/plugged')
 Plug 'junegunn/goyo.vim'
 Plug 'windwp/nvim-autopairs'
-Plug 'rstacruz/vim-closer'
 Plug 'airblade/vim-gitgutter'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'itchyny/lightline.vim'
@@ -33,7 +32,7 @@ autocmd VimEnter * NERDTree
 
 let mapleader = " " " map leader to comma
 nnoremap <leader>n :NERDTreeFocus<CR>
-nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <leader>t :NERDTreeToggle<CR>
 nnoremap <C-r> :! npm run dev<CR>
 
 " Exit Vim if NERDTree is the only window remaining in the only tab.
